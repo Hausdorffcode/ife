@@ -1,0 +1,149 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Microsoft YaHei";
+  background-color: #ddd;
+}
+header {
+  background-color: #333;
+}
+header img {
+  display: inline-block;
+  height: 50px;
+}
+header ul {
+  display: inline-block;
+  float: right;
+  margin-top: 15px;
+}
+header ul li {
+  font-size: 14px;
+  float: left;
+  margin-right: 25px;
+}
+header ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+header ul li:hover, a:hover {
+  color: #cccccc;
+}
+p {
+  text-indent: 2em;
+}
+article, .siderbar, .gallery {
+  margin: 20px;
+  background-color: #ffffff;
+  padding: 30px 20px;
+}
+.container article h1{
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+.container article h2 {
+  color: #888;
+  margin-bottom: 10px;
+}
+.container article h4 {
+  color: #999;
+  display: inline-block;
+  margin-right: 8px;
+  margin-bottom: 8px;
+}
+.gallery figure {
+  width: 500px;
+  border: 1px solid #cccccc;
+  text-align: center;
+  padding: 10px;
+  margin: 20px;
+}
+.gallery figure figcaption {
+  margin-bottom: 10px;
+}
+article img {
+  margin: 10px 0 10px 0;
+}
+article ol li,
+article ul li {
+  margin-left: 2em;
+  margin-bottom: 5px;
+}
+table {
+  border: 2px solid #ccc;
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+}
+table thead {
+  background-color: #333333;
+  color: white;
+}
+table td {
+  border: 2px solid #ccc;
+}
+table td,
+table th {
+  padding: 3px;
+}
+table tfoot {
+  background-color: #cccccc;
+}
+.siderbar h1 {
+  border-left: 3px solid #ccc;
+  padding: 1px 0 1px 10px;
+  margin-bottom: 10px;
+}
+.siderbar form fieldset {
+  margin-top: 5px;
+  margin-bottom: 10px;
+  border: 0px;
+}
+.siderbar form fieldset label {
+  display: inline-block;
+  width: 40%;
+  text-align: right;
+}
+.siderbar form fieldset label[for]{
+	display: inline;
+}
+.siderbar form fieldset label:last-of-type {
+  vertical-align: top;
+}
+.siderbar form fieldset input,
+.siderbar form fieldset select,
+.siderbar form fieldset textarea {
+  margin-left: 5px;
+}
+.siderbar form fieldset p {
+  margin-left: 40%;
+  margin-left: calc(40% - 15px);
+  color: #aaa;
+  font-size: 14px;
+}
+.siderbar form fieldset input[type="email"],
+.siderbar form fieldset input[type="password"],
+.siderbar form fieldset textarea,
+.siderbar form fieldset select {
+  padding: 3px;
+}
+.siderbar form input[type="submit"] {
+  width: 100%;
+  padding: 10px 0 10px 0;
+  border: 1px solid blue;
+  border-radius: 5px;
+  background-color: blue;
+  color: #fff;
+}
+.siderbar form fieldset textarea {
+  width: 50%;
+}
+footer {
+  background-color: black;
+  text-align: center;
+  padding: 20px 0  30px 0;
+}
+footer p {
+  color: white;
+}
