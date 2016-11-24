@@ -1,0 +1,44 @@
+
+.main{
+	padding: 20px;
+	margin: 20px;
+	background-color: #eee;
+	border: 1px solid #999;
+	overflow: auto;
+}
+img{
+	display: block;
+	width: 80px;
+	height: 80px;
+	margin: 20px;
+	border-radius: 5px;
+}
+.teamlogoandname{
+	border: 1px solid #999;
+	width: 200px;
+	float:left;
+	margin: 20px;
+	background-color: #fff;
+}
+.teamlogo{
+	float: left;
+}
+.teamname{
+	text-align: center;
+}
+.introduction{
+	margin: 20px;
+	width: auto;
+	border: 1px solid #999;
+	background-color: #fff;
+	padding: 20px;
+    margin-left: 240px;
+    margin-right: 160px;
+}
+.teammate{
+	float: right;
+	width: 120px;
+	margin: 20px;
+	background-color: #fff;
+	border: 1px solid #999;
+}
